@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>Easy Scape</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+	<section class="header">
+		<nav>
+			<a href="index.html"><img src="images/easy.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="package.html">TOUR PACKAGES</a></li>
+					<li><a href="contact.html">CONTACT US</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+
+<div class="text-box">
+	<h1>Keep Going, Keep Growing. <br>Explore, Dream and Discover.</h1>
+	<p>“Let us step into the night and pursue that flighty temptress, adventure.” ―――― J.K. Rowling</p>
+	<a href="#" class="hero">Contact Us To Know More</a>
+
+</div>		
+
+	</section>
+
+<!----------Places-------------------->
+
+	<section class="place">
+		<h1>PLACES WE TOUR</h1>
+		<p>Here in Easy Scape, we will asure your safety and everyone will enjoy.</p>
+		
+		<div class="row">
+			<div class="place-col">
+				<h3>Batanes</h3>
+				<p>Batanes is an archipelagic province in the Philippines, administratively part of the Cagayan Valley region. It is the northernmost province in the country, and also the smallest, both in population and land area. The capital is Basco, located on the island of Batan.</p>		
+			</div>	
+
+			<div class="place-col">
+				<h3>Siargao</h3>
+				<p>Siargao, a teardrop-shaped small island located at the northeastern coast of Mindanao, is known as the country's Surfing Capital and is one of the best tourist spots in the Philippines.</p>		
+			</div>
+
+			<div class="place-col">
+				<h3>Caramoan Island</h3>
+				<p>The Caramoan Islands are located on the North-Eastern portion of Camarines Sur in the Bicol region of the Philippines. It is commonly referred to as the next Boracay Island. It is loved by most adventurous because of its popular attractions that offer different activities including diving, swimming, snorkeling and spelunking.</p>		
+			</div>
+		</div>
+
+	</section>
+
+<!------------Images------------>
+	<section class="portrait">
+		<h1>PORTRAITS</h1>
+		<p>Enjoy the little things and make us it happen.</p>
+
+		<div class="row">
+			<div class="portrait-col">
+				<img src="images/Batanes.jpg">
+				<div class="layer">
+					<h3>BATANES</h3>
+				</div>
+			</div>
+
+			<div class="portrait-col">
+				<img src="images/Siargao.jpg">
+				<div class="layer">
+					<h3>SIARGAO</h3>
+				</div>
+			</div>
+
+			<div class="portrait-col">
+				<img src="images/island.jpg">
+				<div class="layer">
+					<h3>CARAMOAN ISLAND</h3>
+				</div>
+			</div>
+			
+		</div>
+
+	</section>
+
+
+<!--------Call-------------->
+<section class="call">
+	<h1>Let you Explore the Best and Ride your Best Moments. <br><br> What are you wating for? <br> ESCAPE WITH US.</h1>
+	<a href="package.html" class="hero">EXPLORE NOW</a>
+</section>
+
+
+<!--------footer-------------->
+<section class="footer">
+	<h4>About Us</h4>
+	<p>Easy Escape started in year 2012. Its objective is to be able to give a smile to tourists or to anyone who wants to travel and enjoy life. 
+		<br> We want everyone to find new possibilities, happiness and enjoy the beauty of the world.</p>
+		<div class="icons">
+			<i class="fa fa-facebook"></i>
+			<i class="fa fa-twitter"></i>
+			<i class="fa fa-instagram"></i>
+			<i class="fa fa-linkedin"></i>
+			
+		</div>
+
+</section>
+
+
+
+
+
+
+
+<!-----------JavaScript fot toggle Menu-------->
+	<script>
+		var navLinks =document.getElementById('navLinks');
+
+		function showMenu(){
+			navLinks.style.right ="0";
+		}
+
+		function hideMenu(){
+			navLinks.style.right ="-200px";
+		}
+
+	</script>
+
+</body>
+</html>
